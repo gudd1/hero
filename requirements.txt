@@ -1,4 +1,4 @@
 Django==3.2.5
 gunicorn
-django-heroku
+
 whitenoise==5.3.0

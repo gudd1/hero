@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 
 from pathlib import Path
 import os
-import django_heroku
+#import django_heroku
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-)^q&l*qj7u9%t@e!&-i2@)@^&fz#q63=^78$7=lk*6o4*vt=u*
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['semshero.herokuapp.com']
+ALLOWED_HOSTS = ['.vercel.app','semshero.herokuapp.com','*']
 
 
 # Application definition
@@ -142,4 +142,4 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
-django_heroku.settings(locals(),staticfiles=False)
+#django_heroku.settings(locals(),staticfiles=False)
