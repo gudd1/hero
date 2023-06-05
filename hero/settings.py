@@ -140,6 +140,6 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
+WSGI_APPLICATION = 'hero.wsgi.app'
 
 #django_heroku.settings(locals(),staticfiles=False)
